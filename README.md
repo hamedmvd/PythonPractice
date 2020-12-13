@@ -42,7 +42,7 @@ def pairsum(list1, target):
 			if a + b == 7:
 				ans.append((a, b))
 	return ans
-print(pairsum([3,2,6,1,5,4], 7))
+pairsum([3,2,6,1,5,4], 7)
 ```
 
 ### Q 3
@@ -61,7 +61,7 @@ def P(coefs,vals):
         coefs,vals=vals,coefs
     return [sum([x**i*c for i,c in enumerate(coefs[::-1])]) for x in vals]
     
-print(P([1,2,3],(2,-1,1)))
+P([1,2,3],(2,-1,1))
 ```
 
 
@@ -88,7 +88,7 @@ def mergeDicts(a,b):
         else:
             resp[i]=a[i]
     return resp
-print(mergeDicts({'a':5, 'b':2, 'c':3}, {'f':2, 'H':1, 'a':1}))
+mergeDicts({'a':5, 'b':2, 'c':3}, {'f':2, 'H':1, 'a':1})
 ```
 
 
