@@ -1,6 +1,5 @@
 # PythonPractice
-
-
+<hr>
 type of Python Practice from assignments.these questions are so important for how want to become master in data structures. in addition that all of the practice accumulated in domain of tuple and list type.
 
 > all of the solution are answered by me. so be careful that if you copy this, I promise that you can not be analyzing my Power in Python :)
@@ -17,7 +16,7 @@ If one of the lists is empty, then return an empty list. Note that the order of 
 
 
 ### A 1
-```
+```python
 def list_product(list1, list2):
 	return [(i, j)for i in list2 for j in list1]
 	
@@ -34,7 +33,7 @@ If there are no pairs matching the target value, then you should return an empty
 
 
 ### A 2
-```
+```python
 def pairsum(list1, target):
 	ans = []
 	for j, b in enumerate(list1):
@@ -55,7 +54,7 @@ where x^2 denotes the square of x. Hence, the function must return ```[2,7,16]``
 
 
 ### A 3
-```
+```python
 def P(coefs,vals):
     if isinstance(coefs,list):
         coefs,vals=vals,coefs
@@ -77,7 +76,7 @@ larger value is stored as the value of the key in the new dictionary. You can as
 
 
 ### A 4
-```
+```python
 def mergeDicts(a,b):
     resp = {}
     for i in a.keys()|b.keys():
